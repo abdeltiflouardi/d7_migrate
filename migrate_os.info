@@ -1,0 +1,16 @@
+name = "Migrate from os"
+description = "Module to migrate my old site content to Drupal 7"
+package = "Migration"
+core = 7.x
+
+dependencies[] = migrate
+
+;  include the files that contain your Migrate classes
+files[] = os.inc
+
+; Information added by Drupal.org packaging script on 2015-07-01
+version = "7.x-2.8"
+core = "7.x"
+project = "migrate"
+datestamp = "1435760949"
+
